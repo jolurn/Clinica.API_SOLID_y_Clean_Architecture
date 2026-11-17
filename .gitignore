@@ -1,0 +1,49 @@
+# ==========================================
+# ARCHIVOS DE COMPILACIÓN (.NET)
+# ==========================================
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+bld/
+
+# ==========================================
+# CONFIGURACIÓN DE VISUAL STUDIO
+# ==========================================
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ==========================================
+# ARCHIVOS DEL SISTEMA OPERATIVO
+# ==========================================
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# PAQUETES NUGET
+# ==========================================
+*.nupkg
+*.snupkg
+packages/
+!packages/build/
+
+# ==========================================
+# ARCHIVOS DE CONFIGURACIÓN LOCAL (SECRETOS)
+# ==========================================
+# Si no quieres subir tu cadena de conexión a GitHub, descomenta esta línea:
+# appsettings.json
+# appsettings.Development.json
+
+# ==========================================
+# EDITORES
+# ==========================================
+*.swp
+*.*~
+project.lock.json
+.vscode/
